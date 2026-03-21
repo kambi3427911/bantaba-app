@@ -1,0 +1,31 @@
+class Product {
+  final String id;
+  final String name;
+  final String price;
+  final List<String> images;
+  final String description;
+  final String location;
+  final String sellerName;
+  final String sellerPhone;
+  final String sellerImage;
+  final bool isVerified;
+  final double rating;
+  final int reviewCount;
+  final String condition;
+
+  Product({
+    required this.id,
+    required this.name,
+    required this.price,
+    required this.images,
+    required this.description,
+    required this.location,
+    required this.sellerName,
+    required this.sellerPhone,
+    required this.sellerImage,
+    required this.isVerified,
+    required this.rating,
+    required this.reviewCount,
+    required this.condition,
+  });
+}
